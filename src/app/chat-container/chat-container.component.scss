@@ -1,0 +1,29 @@
+
+.chatContainer{
+	background-color: white;
+
+	padding: 30px;
+
+	width: 60%;
+	// min-height: 50vh;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	-webkit-box-shadow: 6px 10px 38px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 10px 38px 3px rgba(0,0,0,0.75);
+	box-shadow: 6px 10px 38px 3px rgba(0,0,0,0.75);
+
+	text-align: center;
+}
+
+.chatTextbox{
+	height: 200px;
+	overflow-y: scroll;
+	padding: 5px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	text-align: left;
+
+}

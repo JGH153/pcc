@@ -1,0 +1,23 @@
+
+<div class="chatContainer">
+
+	<div class="chatTextbox" innerHTML="{{chatBoxContent}}">
+
+	</div>
+
+	<form (ngSubmit)="onSubmit(form)" #form="ngForm">
+		<div class="form-group">
+			<label for="chatInput">Chat something:</label>
+			<input
+				type="text"
+				class="form-control"
+				name="chatInput"
+				placeholder="Type here"
+				[(ngModel)]="inputTextBoxData"
+				autocomplete="off"
+				autofocus>
+		</div>
+	</form>
+
+
+</div>
